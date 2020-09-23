@@ -10,6 +10,8 @@ import {
 } from '@ant-design/icons';
 import styles from './index.less';
 import update from 'immutability-helper';
+import uniqueId from 'lodash/uniqueId'
+
 
 const { TreeNode } = Tree;
 
@@ -91,7 +93,7 @@ function EditableTree() {
           $push: [{
             value: '页面',
             defaultValue: '新页面',
-            key: Math.random(100),
+            key: key+"-"+uniqueId(),
             parentKey: key,
             isEditable: false
           }]
