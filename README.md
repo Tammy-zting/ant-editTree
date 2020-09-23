@@ -18,4 +18,4 @@ export default App(){
 
 ## ❤️ 效果
 
-![](D:\ztt\EditTree\tree.png)
+![](https://github.com/Tammy-zting/ant-editTree/blob/master/tree.png?raw=true)
